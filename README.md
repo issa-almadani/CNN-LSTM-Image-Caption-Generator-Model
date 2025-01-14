@@ -20,6 +20,4 @@ The dataset is obtained from the COCO dataset that can be found and downloaded f
 Currently, the dataset used is the 2014 Training / Validation images [83K/13GB] / [41K/6GB] dataset
 
 ## How to run project:
-More details coming soon once model completes training. The Jupyter notebook found in the repository can be cloned and run from start to finish (so long as the data is downloaded to correct paths) to retrain the model using the same architecture and hyperparameters (this will take ~1 day to complete).
-
-The trained model parameters will be uploaded soon which can be loaded and used directly.
+The notebook in the repository can be run on google colab to train the network and test it. The weights obtained from training the model are stored in the repository and can be loaded in simply by going to the test part of the notebook and loading in the correct checkpoint block. The requirements.txt file must be installed prior by running `pip3 install -r requirements.txt` as it contains all dependencies needed for the code to run.
