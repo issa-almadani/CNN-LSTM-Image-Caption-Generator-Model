@@ -20,4 +20,8 @@ The dataset is obtained from the COCO dataset that can be found and downloaded f
 Currently, the dataset used is the 2014 Training / Validation images [83K/13GB] / [41K/6GB] dataset
 
 ## How to run project:
-The notebook in the repository can be run on google colab to train the network and test it. The weights obtained from training the model are stored in the repository and can be loaded in simply by going to the test part of the notebook and loading in the correct checkpoint block. The requirements.txt file must be installed prior by running `pip3 install -r requirements.txt` as it contains all dependencies needed for the code to run.
+The notebook in the repository can be run on google colab to train the network and test it. The weights obtained from training the model are found in the links below and can be loaded in simply by going to the test part of the notebook and loading in the correct checkpoint block. The requirements.txt file must be installed prior by running `pip3 install -r requirements.txt` as it contains all dependencies needed for the code to run.
+
+
+WORD2Vec Model: https://drive.google.com/file/d/1oeHAmjQbiwHnKyJTrjXBWmHwWDJEn92r/view?usp=share_link
+Final Model Checkpoint: https://drive.google.com/file/d/1v5eVVmUMBd42DKNBl9HeVUhQt0MjLoGw/view?usp=sharing
