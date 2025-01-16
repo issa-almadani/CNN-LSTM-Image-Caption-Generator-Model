@@ -22,11 +22,10 @@ Currently, the dataset used is the 2014 Training / Validation images [83K/13GB] 
 ## How to run project:
 The notebook in the repository can be run on google colab to train the network and test it. The weights obtained from training the model are found in the links below and can be loaded in simply by going to the test part of the notebook and loading in the correct checkpoint block. 
 
-The requirements.txt file must be installed prior by running `pip3 install -r requirements.txt` as it contains all dependencies needed for the code to run.
+If you are running the notebook locally, the requirements.txt file must be installed prior by running `pip3 install -r requirements.txt` as it contains all dependencies needed for the code to run. Any imports from google colab must be turned off before doing this. If running code on google colab directly, this step can be skipped.
 
-The notebook is written to be used in google colab and make use of the CUDA GPU, but can be run on cpu if needed.
+The notebook is written to be used in google colab and make use of the CUDA GPU, but can be run on cpu if needed. If using GPU, make sure to use a runtime session of GPU in google colab.
 
 The following pre-trained weights can be uploaded to google colab andd loaded underneath the testing part at the end of the document to use directly without training.
-
 WORD2Vec Model: https://drive.google.com/file/d/1oeHAmjQbiwHnKyJTrjXBWmHwWDJEn92r/view?usp=share_link
 Final Model Checkpoint: https://drive.google.com/file/d/1v5eVVmUMBd42DKNBl9HeVUhQt0MjLoGw/view?usp=sharing
